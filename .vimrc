@@ -3,13 +3,15 @@ packadd! matchit
 
 set nobackup writebackup noundofile
 
+set fileformats=unix,dos
+
 set number
 set tabstop=2
 set softtabstop=0
 set expandtab
 set shiftwidth=2
 
-colorscheme sorbet
+colorscheme retrobox
 
 set colorcolumn=80
 
@@ -32,3 +34,5 @@ autocmd FileType c inoremap <buffer> ' ''<ESC>i
 autocmd FileType c inoremap <buffer> // /*<SPACE><SPACE>*/<ESC>hhi
 
 let g:c_syntax_for_h=1
+
+let g:sql_type_default = "mysql"

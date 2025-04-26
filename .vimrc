@@ -11,7 +11,7 @@ set softtabstop=0
 set expandtab
 set shiftwidth=2
 
-colorscheme wildcharm
+colorscheme fogbell
 
 set colorcolumn=80
 

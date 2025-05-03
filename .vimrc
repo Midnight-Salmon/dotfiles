@@ -11,7 +11,7 @@ set softtabstop=0
 set expandtab
 set shiftwidth=2
 
-colorscheme fogbell
+colorscheme quiet
 
 set colorcolumn=80
 

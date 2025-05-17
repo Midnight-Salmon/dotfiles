@@ -105,6 +105,17 @@ AddToMenu MenuWindowOps
 + "" Nop
 + "&Close		Alt+F4" Close
 
+DestroyMenu MenuFvwmRoot
+AddToMenu MenuFvwmRoot "FVWM" Title
++ "Terminal" Exec exec xterm
++ "File Manager" Exec exec xfe
++ "" Nop
++ "Restart FVWM" Restart
++ "Quit FVWM" Quit
++ "" Nop
++ "Reboot" Exec exec reboot
++ "Shut Down" Exec exec poweroff
+
 # Key bindings
 IgnoreModifiers L25
 Silent Key Super_L A N Exec exec dmenu_run \

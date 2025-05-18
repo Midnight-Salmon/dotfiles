@@ -126,6 +126,7 @@ AddToMenu MenuFvwmRoot "FVWM" Title
 + "Terminal" Exec exec xterm
 + "File Manager" Exec exec xfe
 + "" Nop
++ "Change Wallpaper" Exec exec nitrogen
 + "Window Manager" Popup MenuWm
 + "" Nop
 + "Power" Popup MenuPower

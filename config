@@ -105,16 +105,24 @@ AddToMenu MenuWindowOps
 + "" Nop
 + "&Close		Alt+F4" Close
 
+DestroyMenu MenuPower
+AddToMenu MenuPower
++ "Reboot" Exec exec sudo reboot
++ "Shut Down" Exec exec sudo poweroff
+
+DestroyMenu MenuWm
+AddToMenu MenuWm
++ "Restart FVWM" Restart
++ "Quit FVWM" Quit
+
 DestroyMenu MenuFvwmRoot
 AddToMenu MenuFvwmRoot "FVWM" Title
 + "Terminal" Exec exec xterm
 + "File Manager" Exec exec xfe
 + "" Nop
-+ "Restart FVWM" Restart
-+ "Quit FVWM" Quit
++ "Window Manager" Popup MenuWm
 + "" Nop
-+ "Reboot" Exec exec reboot
-+ "Shut Down" Exec exec poweroff
++ "Power" Popup MenuPower
 
 # Key bindings
 IgnoreModifiers L25

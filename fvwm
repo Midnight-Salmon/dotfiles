@@ -17,7 +17,7 @@ AddToFunc Move-Icon
 
 DestroyFunc WindowListFunc
 AddToFunc WindowListFunc
-+ I Iconfiy off
++ I Iconify off
 + I FlipFocus
 + I Raise
 
@@ -135,7 +135,9 @@ IgnoreModifiers L25
 Silent Key Super_L A N Exec exec dmenu_run \
   -b -l 8 -nb "#8282AD" -nf "#FFFFFF" -sb "#EEAA71" -sf "#1B1B1B"
 
-Key F5 W M Iconfiy False
+Key Tab A M WindowList CurrentAtEnd, NoCurrentDeskTitle, NoGeometryWithInfo
+
+Key F5 W M Iconify False
 Key F7 W M Move
 Key F8 W M Resize
 Key F9 W M Iconify True

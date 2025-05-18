@@ -15,6 +15,12 @@ AddToFunc Move-Icon
 + C Iconify
 + M Move
 
+DestroyFunc WindowListFunc
+AddToFunc WindowListFunc
++ I Iconfiy off
++ I FlipFocus
++ I Raise
+
 # 1 - Inactive window
 # 2 - Active window
 # 3 - Inactive window borders

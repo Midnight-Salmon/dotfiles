@@ -125,7 +125,9 @@ DestroyMenu MenuFvwmRoot
 AddToMenu MenuFvwmRoot "FVWM" Title
 + "Terminal" Exec exec xterm
 + "File Manager" Exec exec xfe
++ "Web Browser" Exec exec firefox
 + "" Nop
++ "Audio Mixer" Exec exec pavucontrol
 + "Change Wallpaper" Exec exec nitrogen
 + "Window Manager" Popup MenuWm
 + "" Nop

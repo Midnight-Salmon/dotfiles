@@ -129,6 +129,7 @@ AddToMenu MenuFvwmRoot "FVWM" Title
 + "" Nop
 + "Audio Mixer" Exec exec pavucontrol
 + "Change Wallpaper" Exec exec nitrogen
++ "Take Screenshot" Exec maim -us ~/$(date +%s).png
 + "Window Manager" Popup MenuWm
 + "" Nop
 + "Power" Popup MenuPower

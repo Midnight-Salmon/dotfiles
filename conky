@@ -15,9 +15,9 @@
 
 -- Configuration settings: https://conky.cc/config_settings
 conky.config = {
-    alignment = 'top_right',
+    alignment = 'middle_right',
     background = false,
-    border_width = 1,
+    border_width = 8,
     cpu_avg_samples = 2,
     default_color = 'BABAFF',
     default_outline_color = 'BABAFF',
@@ -31,8 +31,8 @@ conky.config = {
     font = 'IBM Plex Mono:size=12',
     font1 = 'IBM Plex Mono:BOLD:size=12',
     font2 = 'IBM Plex Mono:BOLD:size=16',
-    gap_x = 60,
-    gap_y = 60,
+    gap_x = 32,
+    gap_y = 0,
     minimum_height = 5,
     minimum_width = 282,
     net_avg_samples = 2,

@@ -89,6 +89,8 @@ Style * DecorateTransient, StackTransientParent
 Style * !FPGrabFocusTransient, FPReleaseFocusTransient
 Style * Lenience
 
+GeometryWindow Hide
+
 # Fonts
 DefaultFont "xft:IBM Plex Serif:Regular:size=11:antialias=True"
 
@@ -156,3 +158,10 @@ Key XF86AudioLowerVolume A A Exec exec pamixer -d 5
 # Disable menu tear-off
 Mouse 2 MT A -
 Key Backspace M A -
+
+# Application icon fixes
+ImagePath $HOME/.icons:+
+Style Inkscape Icon inkscape.svg:128x128
+Style Inkscape MiniIcon inkscape.svg:16x16
+Style XTerm Icon xterm-color_48x48.xpm
+Style XTerm MiniIcon xterm-color_16x16.xpm

@@ -3,14 +3,13 @@ packadd! matchit
 
 set nobackup writebackup noundofile
 
-set fileformats=unix,dos
-
 set number
 set tabstop=2
 set softtabstop=0
 set expandtab
 set shiftwidth=2
 
+set bg=dark
 colorscheme quiet
 
 set colorcolumn=80

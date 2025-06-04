@@ -3,7 +3,7 @@ packadd! matchit
 
 set nobackup writebackup noundofile
 
-set number
+set nonumber
 set tabstop=2
 set softtabstop=0
 set expandtab
@@ -27,10 +27,6 @@ set wildmenu
 set wildmode=longest:full,full
 
 autocmd FileType c inoremap <buffer> {<CR> {<CR>}<ESC>ko
-" autocmd FileType c inoremap <buffer> ( ()<ESC>i
-" autocmd FileType c inoremap <buffer> [ []<ESC>i
-" autocmd FileType c inoremap <buffer> " ""<ESC>i
-" autocmd FileType c inoremap <buffer> ' ''<ESC>i
 autocmd FileType c inoremap <buffer> // /*<SPACE><SPACE>*/<ESC>hhi
 
 let g:c_syntax_for_h=1

@@ -14,6 +14,7 @@ colorscheme quiet
 
 set colorcolumn=80
 set showtabline=0
+set scrolloff=0
 
 set guioptions=c
 set guifont=IBM_Plex_Mono:h12

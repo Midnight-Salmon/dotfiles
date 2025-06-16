@@ -117,6 +117,7 @@ DestroyMenu MenuPower
 AddToMenu MenuPower
 + "Reboot" Exec exec sudo reboot
 + "Shut Down" Exec exec sudo poweroff
++ "Hibernate" Exec exec sudo ZZZ
 
 DestroyMenu MenuWm
 AddToMenu MenuWm

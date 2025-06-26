@@ -3,7 +3,7 @@ DestroyFunc StartFunction
 AddToFunc StartFunction
 + I Test (Init) Exec exec picom -b
 + I Test (Init) Exec exec nitrogen --restore
-+ I Test (Init) Exec exec conky
++ I Test (Init) Exec exec polybar
 
 DestroyFunc Move-Or-Shade
 AddToFunc Move-Or-Shade
@@ -167,3 +167,6 @@ Style Inkscape Icon inkscape.svg:128x128
 Style Inkscape MiniIcon inkscape.svg:16x16
 Style XTerm Icon xterm-color_48x48.xpm
 Style XTerm MiniIcon xterm-color_16x16.xpm
+
+# Remove decorations from polybar
+Style Polybar !Title, !Borders, !Handles, WindowListSkip, NeverFocus

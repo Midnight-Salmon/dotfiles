@@ -37,7 +37,7 @@ label = Brightness %percentage%%
 [module/wifi]
 type = internal/network
 interface-type = wireless
-label-connected = Connected to %essid%
+label-connected = Connected to <%essid%>
 label-disconnected = No WiFi connection
 
 [bar/top]

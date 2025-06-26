@@ -88,7 +88,6 @@ OpaqueMoveSize unlimited
 Style * NakedTransient, StackTransientParent
 Style * !FPGrabFocusTransient, FPReleaseFocusTransient
 Style * !FPLenient
-Style * EWMHUseStackingOrderHints
 
 GeometryWindow Hide
 

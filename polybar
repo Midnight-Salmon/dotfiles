@@ -41,6 +41,7 @@ label-connected = Connected to <%essid%>
 label-disconnected = No WiFi connection
 
 [bar/top]
+wm-restack = generic
 width = 100%
 height = 24pt
 padding = 16pt

@@ -85,9 +85,10 @@ Style * MinOverlapPercentPlacement, !UsePPosition, ResizeOpaque, \
   SnapAttraction 15 SameType ScreenAll, SnapGrid
 
 OpaqueMoveSize unlimited
-Style * DecorateTransient, StackTransientParent
+Style * NakedTransient, StackTransientParent
 Style * !FPGrabFocusTransient, FPReleaseFocusTransient
-Style * Lenience
+Style * !FPLenient
+Style * EWMHUseStackingOrderHints
 
 GeometryWindow Hide
 

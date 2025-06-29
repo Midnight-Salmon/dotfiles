@@ -142,7 +142,8 @@ IgnoreModifiers L25
 Silent Key Super_L A N Exec exec dmenu_run \
   -b -l 8 -nb "#8282AD" -nf "#FFFFFF" -sb "#EEAA71" -sf "#1B1B1B"
 
-Key Tab A M WindowList CurrentAtEnd, NoCurrentDeskTitle, NoGeometryWithInfo
+Key Tab A M WindowList CurrentAtEnd, NoCurrentDeskTitle, NoGeometryWithInfo, \
+  SelectOnRelease Alt_L
 
 Key F5 W M Iconify False
 Key F7 W M Move
@@ -168,4 +169,5 @@ Style XTerm Icon xterm-color_48x48.xpm
 Style XTerm MiniIcon xterm-color_16x16.xpm
 
 # Remove decorations from polybar
-Style Polybar !Title, !Borders, !Handles, WindowListSkip, NeverFocus
+Style Polybar !Title, !Borders, !Handles, WindowListSkip, NeverFocus, \
+  MouseFocusClickRaisesOff

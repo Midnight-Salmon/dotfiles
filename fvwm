@@ -85,7 +85,7 @@ Style * MinOverlapPercentPlacement, !UsePPosition, ResizeOpaque, \
   SnapAttraction 15 SameType ScreenAll, SnapGrid
 
 OpaqueMoveSize unlimited
-Style * NakedTransient, StackTransientParent
+Style * DecorateTransient, StackTransientParent
 Style * !FPGrabFocusTransient, FPReleaseFocusTransient
 Style * !FPLenient
 
@@ -167,6 +167,8 @@ Style Inkscape Icon inkscape.svg:128x128
 Style Inkscape MiniIcon inkscape.svg:16x16
 Style XTerm Icon xterm-color_48x48.xpm
 Style XTerm MiniIcon xterm-color_16x16.xpm
+Style KStars Icon kstars.png
+Style KStars MiniIcon kstars_mini.png
 
 # Remove decorations from polybar
 Style Polybar !Title, !Borders, !Handles, WindowListSkip, NeverFocus, \

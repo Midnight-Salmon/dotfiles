@@ -5,6 +5,8 @@
 
 alias ls='ls --color=auto'
 
+eval "$(fzf --bash)"
+
 export EDITOR=vim
 
 PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'

@@ -1,5 +1,6 @@
 source $VIMRUNTIME/defaults.vim
 packadd! matchit
+set rtp+=/usr/bin/fzf
 
 set nobackup writebackup noundofile
 

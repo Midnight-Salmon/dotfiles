@@ -9,12 +9,11 @@ set softtabstop=0
 set expandtab
 set shiftwidth=2
 
-set bg=dark
 colorscheme retrobox
 syntax off
 
+set showtabline=1
 set colorcolumn=80
-set showtabline=0
 set scrolloff=999
 set tw=79
 

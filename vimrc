@@ -1,6 +1,5 @@
 source $VIMRUNTIME/defaults.vim
 packadd! matchit
-set rtp+=/usr/bin/fzf
 
 set nobackup writebackup noundofile
 
@@ -11,7 +10,8 @@ set expandtab
 set shiftwidth=2
 
 set bg=dark
-colorscheme quiet
+colorscheme retrobox
+syntax off
 
 set colorcolumn=80
 set showtabline=0

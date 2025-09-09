@@ -9,6 +9,7 @@ set softtabstop=0
 set expandtab
 set shiftwidth=2
 
+set background=light
 colorscheme retrobox
 syntax off
 

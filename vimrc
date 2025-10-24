@@ -10,7 +10,7 @@ set expandtab
 set shiftwidth=2
 
 set background=light
-colorscheme retrobox
+colorscheme rosepine_dawn
 syntax off
 
 set showtabline=1

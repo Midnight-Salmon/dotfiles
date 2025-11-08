@@ -9,6 +9,7 @@ set softtabstop=0
 set expandtab
 set shiftwidth=2
 
+set termguicolors
 set background=light
 colorscheme rosepine_dawn
 syntax off

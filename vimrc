@@ -11,7 +11,7 @@ set shiftwidth=2
 
 set termguicolors
 set background=light
-colorscheme rosepine_dawn
+colorscheme retrobox
 syntax off
 
 set showtabline=1

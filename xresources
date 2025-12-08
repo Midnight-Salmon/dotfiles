@@ -1,8 +1,0 @@
-XTerm.vt100.faceName: IBM Plex Mono:size=12:antialias=true
-XTerm.vt100.renderFont: true
-XTerm.vt100.metaSendsEscape: true
-XTerm.vt100.geometry: 80x25
-XTerm*activeIcon: false
-XTerm.vt100.reverseVideo: true
-XTerm.vt100.backarrowKey: false
-XTerm.vt100.forceBoxChars: true

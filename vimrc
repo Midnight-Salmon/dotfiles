@@ -16,7 +16,7 @@ syntax off
 
 set showtabline=1
 set colorcolumn=80
-set scrolloff=999
+set scrolloff=5
 set tw=79
 
 set guioptions=c
@@ -26,14 +26,14 @@ set mouse=
 set hidden
 set wildcharm=<C-z>
 nnoremap <BS> :b<SPACE><C-z>
+nnoremap <LEFT> :bp<ENTER>
+nnoremap <RIGHT> :bn<ENTER>
+inoremap <buffer> {<CR> {<CR>}<ESC>ko
 
 set wildmenu
 set wildmode=longest:full,full
 
-autocmd FileType c inoremap <buffer> {<CR> {<CR>}<ESC>ko
 autocmd FileType c inoremap <buffer> // /*<SPACE><ESC>A<SPACE>*/<ESC>hhi
 let g:c_syntax_for_h=1
 
 let g:sql_type_default = "mysql"
-
-autocmd FileType haskell setlocal autoindent

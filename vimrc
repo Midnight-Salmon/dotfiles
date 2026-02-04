@@ -3,14 +3,14 @@ packadd! matchit
 
 set nobackup writebackup noundofile
 
-set nonumber
+set number
 set tabstop=2
 set softtabstop=0
 set expandtab
 set shiftwidth=2
 
 set termguicolors
-colorscheme retrobox
+colorscheme sorbet
 syntax off
 
 set showtabline=1

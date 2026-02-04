@@ -10,7 +10,6 @@ set expandtab
 set shiftwidth=2
 
 set termguicolors
-set background=light
 colorscheme retrobox
 syntax off
 

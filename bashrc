@@ -14,3 +14,5 @@ PS1='[\u@\h] \[\e[36m\]\w\[\e[0m\] \[\e[7m\]${PS1_CMD1}\n\[\e[0m\]\$ '
 cowsay -f moose "This time for sure!" | lolcat -F 0.3
 
 [ -f "/home/emily/.ghcup/env" ] && . "/home/emily/.ghcup/env" # ghcup-env
+
+set -o vi

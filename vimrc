@@ -27,7 +27,7 @@ set wildcharm=<C-z>
 nnoremap <BS> :b<SPACE><C-z>
 nnoremap <LEFT> :bp<ENTER>
 nnoremap <RIGHT> :bn<ENTER>
-inoremap <buffer> {<CR> {<CR>}<ESC>ko
+inoremap {<CR> {<CR>}<ESC>ko
 
 set wildmenu
 set wildmode=longest:full,full

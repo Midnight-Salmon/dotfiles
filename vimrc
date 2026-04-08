@@ -32,7 +32,5 @@ inoremap {<CR> {<CR>}<ESC>ko
 set wildmenu
 set wildmode=longest:full,full
 
-autocmd FileType c inoremap <buffer> // /*<SPACE><ESC>A<SPACE>*/<ESC>hhi
 let g:c_syntax_for_h=1
-
 let g:sql_type_default = "mysql"
